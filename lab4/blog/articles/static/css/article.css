@@ -1,0 +1,82 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+    font-size: 22px; /* Увеличенный базовый шрифт */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 960px;
+    margin: 30px auto;
+}
+
+.header-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+/* ГЛАВНАЯ: Логотип СЛЕВА */
+.archive .header img {
+    display: block;
+    float: left;
+    width: 380px;
+}
+
+/* СТАТЬЯ: Логотип ПОСЕРЕДИНЕ */
+.article .header img {
+    display: inline-block;
+    width: 380px;
+}
+
+/* Кнопка ВСЕ СТАТЬИ СПРАВА (посередине высоты лого) */
+.all-articles-link {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content {
+    width: 960px;
+    margin: 40px auto;
+    clear: both;
+}
+
+.post-title a, h1.post-title {
+    color: #ffffff;
+    text-decoration: underline; /* Подчеркивание заголовков */
+    font-size: 36px;
+}
+
+.article-info {
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+}
+
+.article-created-date {
+    width: 50%;
+    float: right;
+    text-align: right;
+    font-style: italic; /* Дата курсивом */
+}
+
+.article-text {
+    line-height: 1.6;
+    margin-top: 30px;
+}
+
+.one-post {
+    margin-bottom: 60px;
+}

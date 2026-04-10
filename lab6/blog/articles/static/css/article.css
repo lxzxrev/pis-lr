@@ -1,0 +1,111 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 960px;
+    margin: 30px auto;
+}
+
+.header-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+}
+
+.archive .header-container {
+    justify-content: space-between;
+}
+
+.article .header-container,
+.registration .header-container,
+.login .header-container {
+    justify-content: center;
+}
+
+.header img {
+    width: 320px;
+    display: block;
+}
+
+.all-articles-link {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 22px;
+    white-space: nowrap;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links .all-articles-link {
+    position: static;
+    transform: none;
+}
+
+.content {
+    width: 960px;
+    margin: 40px auto;
+    clear: both;
+}
+
+.form-container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.btn-save {
+    width: 100%;
+    padding: 15px;
+    background: #16a085;
+    color: #fff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-save:hover {
+    background: #fff;
+    color: #16a085;
+}
+
+.error-msg {
+    background: #fff;
+    color: #e74c3c;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}

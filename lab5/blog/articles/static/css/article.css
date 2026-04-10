@@ -1,0 +1,122 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 960px;
+    margin: 30px auto;
+}
+
+.header-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.archive .header img {
+    display: block;
+    float: left;
+    width: 380px;
+}
+
+.article .header img {
+    display: inline-block;
+    width: 380px;
+}
+
+.all-articles-link {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content {
+    width: 960px;
+    margin: 40px auto;
+    clear: both;
+}
+
+.form-container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form input[type="text"], form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 300px;
+    resize: vertical;
+}
+
+.btn-save {
+    width: 100%;
+    padding: 15px;
+    background-color: #16a085;
+    color: white;
+    border: 2px solid #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-save:hover {
+    background-color: #ffffff;
+    color: #16a085;
+}
+
+.error-msg {
+    color: #e74c3c;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.article-info {
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+}
+
+.article-created-date {
+    width: 50%;
+    float: right;
+    text-align: right;
+    font-style: italic;
+}
+
+.post-title a, h1.post-title {
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 36px;
+}

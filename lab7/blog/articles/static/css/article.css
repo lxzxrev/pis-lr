@@ -1,0 +1,109 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 960px;
+    margin: 30px auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.header img {
+    width: 320px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.all-articles-link {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.content {
+    width: 960px;
+    margin: 40px auto;
+}
+
+.one-post {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.one-post.folded .article-author,
+.one-post.folded .article-created-date,
+.one-post.folded .article-text {
+    display: none;
+}
+
+.fold-button {
+    float: right;
+    cursor: pointer;
+    background: #16a085;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.post-title a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 32px;
+}
+
+.article-info {
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+}
+
+.article-created-date {
+    width: 50%;
+    float: right;
+    text-align: right;
+    font-style: italic;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.btn-save {
+    width: 100%;
+    padding: 15px;
+    background: #16a085;
+    color: #fff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
